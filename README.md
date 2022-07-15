@@ -1,18 +1,33 @@
-# Project Title
+# Loan Qualifier Application
 
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+This is a command-line interface program written in Python. Its purpose is to help customers identify which bank loans they're accepted for by simply entering their financial information. The customer will input their credit score, monthly debt, monthly income, desired loan amount and their home value. The program aims to streamline the selection process and speed up banking operations.
 
 ---
 
 ## Technologies
 
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+This application is compatible with Python 3.9.
+The libraries Fire and Questionary were used and must be installed in order for the program to run correctly.
+
+Fire allows the user to input data directly from the command prompt. 
+Questionary allows the user to input the data in a more user friendly "question and answer" format.
+
+This program will work on Windows, MacOS and Linux with Python 3.9 installed. The user must have have access to and be able to navigate a CLI to run the program.
+
+Documentation for the Fire library can be found [here.](https://github.com/google/python-fire)
+
+Documentation for the Questionary library can be found[here.](https://github.com/tmbo/questionary)
 
 ---
 
 ## Installation Guide
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
+Before running the application first install the following dependencies.
+
+```python
+  pip install fire
+  pip install questionary
+```
 
 ---
 
