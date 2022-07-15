@@ -1,0 +1,601 @@
+   50  rm -rf ~/opt/anaconda3
+   51  conda --version
+   52  conda update conda
+   53  conda update anaconda
+   54  python --version
+   55  conda create -n dev python=3.9.7 anaconda
+   56  conda activate dev
+   57  conda init zsh
+   58  echo #{SHELL}
+   59  python -m ipykernel install --user --name dev
+   60  conda install -c conda-forge nodejs
+   61  conda deactivate
+   62  conda activate dev
+   63  jupyter lab
+   64  conda deactivate
+   65  pwd
+   66  ls
+   67  cd desktop
+   68  pwd
+   69  ls
+   70  mkdir FinTech_Workspace
+   71  ls
+   72  cd FinTech_Workspace
+   73  ls
+   74  cd ..
+   75  ls
+   76  cd desktop
+   77  ls
+   78  cd FinTech_Workspace
+   79  ls
+   80  cd Python_Project
+   81  la
+   82  ls
+   83  conda activate dev
+   84  python --version
+   85  code .
+   86  python hello_python.py
+   87  conda deactivate
+   88  code .
+   89  ls
+   90  python variable_sample.py
+   91  conda activate
+   92  python variable_sample.py
+   93  ls
+   94  cd desktop
+   95  ls
+   96  cd fintech_workspace
+   97  ls
+   98  cd python_project
+   99  ls
+  100  coda -- version
+  101  coda --version
+  102  cobra --version
+  103  cobra -- version
+  104  conda activate dev
+  105  python variable_sample.py
+  106  python hello_python.py
+  107  python variable_sample.py
+  108  python variable_sample.py
+  109  python variable_sample.py
+  110  ls
+  111  cd ..
+  112  ls
+  113  cd python_project
+  114  ls
+  115  cd ..
+  116  cd ..
+  117  cd..
+  118  cd ..
+  119  ;s
+  120  ls
+  121  cd downloads
+  122  ls
+  123  cd 01_hello_variable_world
+  124  ls
+  125  cd unsolved
+  126  ls
+  127  python hello_variable_world.py
+  128  python hello_variable_world.py
+  129  python hello_variable_world.py
+  130  python hello_variable_world.py
+  131  python hello_variable_world
+  132  python hello_variable_world.py
+  133  conda deactivate
+  134  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.2/python_iterators
+  135  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.2/python_iterators
+  136  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.2/python_iterators
+  137  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.2/python_iterators
+  138  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.2/python_iterators
+  139  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.2/python_iterators
+  140  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.3/iterators_financial_automation
+  141  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.3/iterators_financial_automation
+  142  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/01_Racking_Up_The_Profit/Unsolved/racking_up_the_profit.py
+  143  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/01_Racking_Up_The_Profit/Unsolved/racking_up_the_profit.py
+  144  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/01_Racking_Up_The_Profit/Unsolved/racking_up_the_profit.py
+  145  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/01_Racking_Up_The_Profit/Unsolved/racking_up_the_profit.py
+  146  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/01_Racking_Up_The_Profit/Unsolved/racking_up_the_profit.py
+  147  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.5/iterating_nested_data_structures
+  148  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.5/iterating_nested_data_structures
+  149  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.5/iterating_nested_data_structures
+  150  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.5/iterating_nested_data_structures
+  151  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.5/iterating_nested_data_structures
+  152  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.5/iterating_nested_data_structures
+  153  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.5/iterating_nested_data_structures
+  154  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.5/iterating_nested_data_structures
+  155  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.5/iterating_nested_data_structures
+  156  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.5/iterating_nested_data_structures
+  157  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.5/iterating_nested_data_structures
+  158  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/Class_1_Activities/04_Stu_Manipulating_Lists/Unsolved/manipulating_lists.py
+  159  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/Class_1_Activities/04_Stu_Manipulating_Lists/Unsolved/manipulating_lists.py
+  160  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/Class_1_Activities/04_Stu_Manipulating_Lists/Unsolved/manipulating_lists.py
+  161  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/Class_1_Activities/04_Stu_Manipulating_Lists/Unsolved/manipulating_lists.py
+  162  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/Class_1_Activities/04_Stu_Manipulating_Lists/Unsolved/manipulating_lists.py
+  163  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/Class_1_Activities/04_Stu_Manipulating_Lists/Unsolved/manipulating_lists.py
+  164  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/Class_1_Activities/04_Stu_Manipulating_Lists/Unsolved/manipulating_lists.py
+  165  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/Class_1_Activities/04_Stu_Manipulating_Lists/Unsolved/manipulating_lists.py
+  166  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/Class_1_Activities/06_Stu_Working_with_Dictionaries/Unsolved/dictionaries.py
+  167  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/Class_1_Activities/06_Stu_Working_with_Dictionaries/Unsolved/dictionaries.py
+  168  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.5/iterating_nested_data_structures
+  169  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.5/iterating_nested_data_structures
+  170  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.5/iterating_nested_data_structures
+  171  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.5/iterating_nested_data_structures
+  172  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.5/iterating_nested_data_structures
+  173  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.5/iterating_nested_data_structures
+  174  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.5/iterating_nested_data_structures
+  175  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.5/iterating_nested_data_structures
+  176  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.5/iterating_nested_data_structures
+  177  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.5/iterating_nested_data_structures
+  178  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.5/iterating_nested_data_structures
+  179  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.5/iterating_nested_data_structures
+  180  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.5/iterating_nested_data_structures
+  181  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.5/iterating_nested_data_structures
+  182  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/01_Racking_Up_The_Profit/Unsolved/racking_up_the_profit.py
+  183  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.5/iterating_nested_data_structures
+  184  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.5/iterating_nested_data_structures
+  185  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/1.6.5/iterating_nested_data_structures
+  186  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/01_Racking_Up_The_Profit/Unsolved/racking_up_the_profit.py
+  187  conda install -c conda-forge pathlib
+  188  import pathlib
+  189  conda install -c anaconda csvkit
+  190  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/pathways_to_success.py
+  191  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/02_Pathways_to_Success_Part_1/Unsolved/pathways_to_success.py
+  192  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/01_Read_and_Write_CSV/read_write_to_csv_files
+  193  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/01_Read_and_Write_CSV/read_write_to_csv_files
+  194  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/01_Read_and_Write_CSV/read_write_to_csv_files
+  195  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/01_Read_and_Write_CSV/read_write_to_csv_files
+  196  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/01_Read_and_Write_CSV/read_write_to_csv_files
+  197  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/01_Read_and_Write_CSV/read_write_to_csv_files
+  198  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/01_Read_and_Write_CSV/read_write_to_csv_files
+  199  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/01_Read_and_Write_CSV/read_write_to_csv_files
+  200  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/01_Read_and_Write_CSV/read_write_to_csv_files
+  201  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/01_Read_and_Write_CSV/read_write_to_csv_files.py
+  202  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/01_Read_and_Write_CSV/read_write_to_csv_files.py
+  203  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/01_Read_and_Write_CSV/read_write_to_csv_files.py
+  204  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/01_Read_and_Write_CSV/read_write_to_csv_files.py
+  205  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/01_Read_and_Write_CSV/read_write_to_csv_files.py
+  206  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/01_Read_and_Write_CSV/read_write_to_csv_files.py
+  207  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/01_Read_and_Write_CSV/read_write_to_csv_files.py
+  208  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/01_Read_and_Write_CSV/read_write_to_csv_files.py
+  209  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/pathways_to_success.py
+  210  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/01_Read_and_Write_CSV/read_write_to_csv_files.py
+  211  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/01_Read_and_Write_CSV/read_write_to_csv_files.py
+  212  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/01_Read_and_Write_CSV/read_write_to_csv_files.py
+  213  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/01_Read_and_Write_CSV/read_write_to_csv_files.py
+  214  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/03_Pathways_to_Success_Part_2/Unsolved/pathways_to_success_part_2.py
+  215  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/03_Pathways_to_Success_Part_2/Unsolved/pathways_to_success_part_2.py
+  216  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/FinTech_Workspace/03_Pathways_to_Success_Part_2/Unsolved/pathways_to_success_part_2.py
+  217  pip -v
+  218  pip freezwe
+  219  pip freeze
+  220  conda activate dev
+  221  pip -v
+  222  pip -V
+  223  pip install fire
+  224  pip install questionary
+  225  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  226  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  227  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  228  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  229  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  230  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  231  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  232  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  233  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  234  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  235  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  236  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  237  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  238  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  239  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  240  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  241  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  242  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  243  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  244  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  245  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  246  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  247  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  248  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/07-functions-01/Unsolved/functions-01.py
+  249  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/07-functions-01/Unsolved/functions-01.py
+  250  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/07-functions-01/Unsolved/functions-01.py
+  251  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/07-functions-01/Unsolved/functions-01.py
+  252  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/07-functions-01/Unsolved/functions-01.py
+  253  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/07-functions-01/Unsolved/functions-01.py
+  254  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/07-functions-01/Unsolved/functions-01.py
+  255  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/07-functions-01/Unsolved/functions-01.py
+  256  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/07-functions-01/Unsolved/functions-01.py
+  257  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/07-functions-01/Unsolved/functions-01.py
+  258  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/07-functions-01/Unsolved/functions-01.py
+  259  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/07-functions-01/Unsolved/functions-01.py
+  260  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/07-functions-01/Unsolved/functions-01.py
+  261  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/07-functions-01/Unsolved/functions-01.py
+  262  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/Class_1_Activities/04_Stu_ATM_Application_Code/Unsolved/atm.py
+  263  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/Class_1_Activities/04_Stu_ATM_Application_Code/Unsolved/atm.py
+  264  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/Class_1_Activities/04_Stu_ATM_Application_Code/Unsolved/atm.py
+  265  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/Class_1_Activities/04_Stu_ATM_Application_Code/Unsolved/atm.py
+  266  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/Class_1_Activities/04_Stu_ATM_Application_Code/Unsolved/atm.py
+  267  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  268  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  269  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  270  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  271  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  272  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  273  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  274  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  275  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  276  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  277  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  278  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  279  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  280  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  281  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  282  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  283  conda activate dev
+  284  conda deactivate 
+  285  conda create -n atmdev python=3.7 anaconda
+  286  conda activate atmdev
+  287  ls
+  288  cd desktop
+  289  ls
+  290  cd FinTech_Workspace
+  291  ls
+  292  cd class_2_activities
+  293  ls
+  294  cd 02_stubuild_atm_functions
+  295  ls
+  296  cd 02_stu_build_atm_functions
+  297  ls
+  298  cd unsolved
+  299  ls
+  300  pip install -r requirements.txt
+  301  deactivate coda
+  302  conda deactivate
+  303  cd ..
+  304  cd..
+  305  cd ..
+  306  cd ..
+  307  cd ..
+  308  ls
+  309  cd github_upload
+  310  ls
+  311  mkdir readme test
+  312  mkdir readme_test
+  313  ls
+  314  cd readme_test
+  315  touch README.md
+  316  ls
+  317  git init
+  318  git add README.md
+  319  git commit -m "Initial Commit"
+  320  git remote add origin https://github.com/creamybokeh/GitHub_Upload
+  321  git push -u origin master
+  322  git push -u origin master
+  323  git push -u origin master
+  324  git push -u origin master
+  325  git remote add origin https://github.com/creamybokeh/GitHub_Upload.git
+  326  git push -u origin master
+  327  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  328  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  329  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  330  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  331  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  332  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  333  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  334  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  335  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  336  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  337  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  338  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  339  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  340  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/main.py
+  341  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  342  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  343  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  344  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  345  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  346  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  347  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  348  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  349  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  350  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  351  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  352  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  353  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  354  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  355  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  356  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  357  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  358  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  359  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  360  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  361  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  362  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  363  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  364  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  365  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  366  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  367  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  368  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  369  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  370  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  371  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  372  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  373  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  374  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  375  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  376  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/loan_analyzer.py
+  377  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/challenge_files/loan_analyzer.py
+  378  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/challenge_files/loan_analyzer.py
+  379  conda deactivate
+  380  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/challenge_files/loan_analyzer.py
+  381  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/2.1.5.py
+  382  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/2.1.5.py
+  383  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/2.1.5.py
+  384  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/2.1.5.py
+  385  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/2.1.5.py
+  386  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/challenge_files/loan_analyzer.py
+  387  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/challenge_files/loan_analyzer.py
+  388  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/01_Loan_Qualifier_Financial_Calculations/Unsolved/app.py
+  389  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/01_Loan_Qualifier_Financial_Calculations/Unsolved/app.py
+  390  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/01_Loan_Qualifier_Financial_Calculations/Unsolved/app.py
+  391  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/01_Loan_Qualifier_Financial_Calculations/Unsolved/app.py
+  392  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/01_Loan_Qualifier_Financial_Calculations/Unsolved/app.py
+  393  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/01_Loan_Qualifier_Financial_Calculations/Unsolved/app.py
+  394  /usr/local/bin/python3 /Users/grahamjohnstone/Downloads/01_Loan_Qualifier_Financial_Calculations/Unsolved/app.py
+  395  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/2.1.7.py
+  396  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/2.1.7.py
+  397  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/02_Loan_Qualifier_Filtering_Data/Unsolved/app.py
+  398  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/02_Loan_Qualifier_Filtering_Data/Unsolved/app.py
+  399  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/02_Loan_Qualifier_Filtering_Data/Unsolved/app.py
+  400  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/02_Loan_Qualifier_Filtering_Data/Unsolved/app.py
+  401  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/02_Loan_Qualifier_Filtering_Data/Unsolved/app.py
+  402  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/modular_programming/app.py
+  403  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/modular_programming/app.py
+  404  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/modular_programming/calculator.py
+  405  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/modular_programming/app.py
+  406  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/modular_programming/app.py
+  407  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/modular_programming/app.py
+  408  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/modular_programming/app.py
+  409  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/modular_programming/app.py
+  410  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/modular_programming/app.py
+  411  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/modular_programming/app.py
+  412  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/modular_programming/app.py
+  413  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/modular_programming/app.py
+  414  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/02_Loan_Qualifier_Filtering_Data/Unsolved/app.py
+  415  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/2.2.5_Modularize_Loan_Qualifier_App/Unsolved/app.py
+  416  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/2.2.5_Modularize_Loan_Qualifier_App/Unsolved/app.py
+  417  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/2.2.5_Modularize_Loan_Qualifier_App/Unsolved/app.py
+  418  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/2.2.5_Modularize_Loan_Qualifier_App/Unsolved/app.py
+  419  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/2.2.5_Modularize_Loan_Qualifier_App/Unsolved/app.py
+  420  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/2.2.5_Modularize_Loan_Qualifier_App/Unsolved/app.py
+  421  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/2.2.5_Modularize_Loan_Qualifier_App/Unsolved/app.py
+  422  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/01_Modularize_Your_Loan_Qualifier_Application_Part_2/Unsolved/app.py
+  423  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/01_Modularize_Your_Loan_Qualifier_Application_Part_2/Unsolved/app.py
+  424  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/01_Modularize_Your_Loan_Qualifier_Application_Part_2/Unsolved/app.py
+  425  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/01_Modularize_Your_Loan_Qualifier_Application_Part_2/Unsolved/app.py
+  426  /usr/local/bin/python3 /Users/grahamjohnstone/Desktop/github_upload/01_Modularize_Your_Loan_Qualifier_Application_Part_2/Unsolved/app.py
+  427  printenv > /var/folders/sx/slv23rz11tb4953vl64rcf_40000gn/T/tmp-64186IkWV93wxj5O1txt
+  428  cd 2.3.3
+  429  python cli.py
+  430  pip -V
+  431  pip freeze
+  432  conda activate dev
+  433  pip -
+  434  pip -V
+  435  pip install fire
+  436  pip install questionary
+  437  pip install fire
+  438  pip install fire
+  439  pip --version
+  440  python -m pip install --upgrade pip
+  441  pip install fire
+  442  pip3 install --upgrade fire
+  443  conda activate dev
+  444  /Users/grahamjohnstone/opt/anaconda3/envs/dev/bin/python /Users/grahamjohnstone/Desktop/github_upload/2.3.3/cli.py
+  445  /Users/grahamjohnstone/opt/anaconda3/envs/dev/bin/python /Users/grahamjohnstone/Desktop/github_upload/2.3.3/cli.py
+  446  cd 2.3.3
+  447  ls
+  448  python cli.py --pants=True
+  449  /Users/grahamjohnstone/opt/anaconda3/envs/dev/bin/python /Users/grahamjohnstone/Desktop/github_upload/2.3.3/cli.py
+  450  cd desktop
+  451  ls
+  452  cd github_upload
+  453  ls
+  454  cd 2.3.3
+  455  ls
+  456  python cli.py --pants=True
+  457  python -V
+  458  activate conda
+  459  conda activate
+  460  conda deactivate
+  461  ls
+  462  python cli.py --pants=True
+  463  conda activate
+  464  conda activate dev
+  465  python cli.py
+  466  python cli.py --pants=True
+  467  cli.py --pants=True
+  468  python cli.py --pants=True
+  469  cd ..
+  470  ls
+  471  cd 01_adding_fire_to_the_loan_qualifier_app
+  472  ls
+  473  cd unsolved
+  474  ls
+  475  python app.py
+  476  conda activate dev
+  477  /Users/grahamjohnstone/opt/anaconda3/envs/dev/bin/python /Users/grahamjohnstone/Desktop/github_upload/01_Adding_Fire_to_the_Loan_Qualifier_App/Unsolved/app.py
+  478  /Users/grahamjohnstone/opt/anaconda3/envs/dev/bin/python /Users/grahamjohnstone/Desktop/github_upload/01_Adding_Fire_to_the_Loan_Qualifier_App/Unsolved/app.py
+  479  /Users/grahamjohnstone/opt/anaconda3/envs/dev/bin/python /Users/grahamjohnstone/Desktop/github_upload/01_Adding_Fire_to_the_Loan_Qualifier_App/Unsolved/app.py
+  480  conda activate dev
+  481  /Users/grahamjohnstone/opt/anaconda3/envs/dev/bin/python /Users/grahamjohnstone/Desktop/github_upload/01_Adding_Fire_to_the_Loan_Qualifier_App/Unsolved/app.py
+  482  /Users/grahamjohnstone/opt/anaconda3/envs/dev/bin/python /Users/grahamjohnstone/Desktop/github_upload/01_Adding_Fire_to_the_Loan_Qualifier_App/Unsolved/app.py
+  483  /Users/grahamjohnstone/opt/anaconda3/envs/dev/bin/python /Users/grahamjohnstone/Desktop/github_upload/02_Adding_questionary_to_Loan_Qualifier/Unsolved/app.py
+  484  /Users/grahamjohnstone/opt/anaconda3/envs/dev/bin/python /Users/grahamjohnstone/Desktop/github_upload/02_Adding_questionary_to_Loan_Qualifier/Unsolved/app.py
+  485  conda activate dev
+  486  /Users/grahamjohnstone/opt/anaconda3/envs/dev/bin/python /Users/grahamjohnstone/Desktop/github_upload/02_Adding_questionary_to_Loan_Qualifier/Unsolved/app.py
+  487  python app.py
+  488  ls
+  489  cd 02_Adding_questionary_to_Loan_Qualifier 
+  490  ls
+  491  cd unsolved
+  492  ls
+  493  python app.py
+  494  cd desktop
+  495  activate conda dev
+  496  conda activate dev
+  497  cd github_upload
+  498  ls
+  499  cd 01_Adding_Fire_to_the_Loan_Qualifier_App
+  500  ls
+  501  cd unsolved
+  502  ls
+  503  python app.py
+  504  python app.py
+  505  python app.py
+  506  python app.py
+  507  python app.py --credit_score=750
+  508  python app.py --credit_score=750
+  509  python app.py --credit_score=450
+  510  python app.py --credit_score=750 --debt=3000 --income=50000
+  511  cd ..
+  512  cd ..
+  513  ls
+  514  cd 02_Adding_questionary_to_Loan_Qualifier
+  515  ls
+  516  cd unsolved
+  517  ls
+  518  python app.py
+  519  python app.py --credit_score=750 --debt=5000 --income=20000
+  520  python app.py
+  521  python app.py
+  522  python app.py
+  523  python app.py
+  524  git config --global user.name Graham Johnstone
+  525  git config --global user.email johnstonegr@gmail.com
+  526  git config --list
+  527  git config --global user.name creamybokeh
+  528  git config --list
+  529  cd ..
+  530  cd ..
+  531  git clone https://github.com/creamybokeh/Test_Repo.git
+  532  ls
+  533  cd test_repo
+  534  ls
+  535  git status
+  536  git add README.md
+  537  git status
+  538  touch new_file.txt
+  539  ls
+  540  git status
+  541  git add new_file.txt
+  542  git status
+  543  git commit -m "Add some text and a new file"
+  544  git status
+  545  git push
+  546  git push
+  547  /usr/local/bin/python3 /Users/grahamjohnstone/Dropbox/Python/python_crash_course/chapter_1/full_name.py
+  548  /usr/local/bin/python3 /Users/grahamjohnstone/Dropbox/Python/python_crash_course/chapter_1/full_name.py
+  549  /usr/local/bin/python3 /Users/grahamjohnstone/Dropbox/Python/python_crash_course/chapter_1/full_name.py
+  550  conda activate dev
+  551  /Users/grahamjohnstone/opt/anaconda3/envs/dev/bin/python /Users/grahamjohnstone/Desktop/github_upload/Module_2_Challenge/loan_qualifier_app/Loan_Qualifier_Application/app.py
+  552  loan_qualifier_application/data/daily_rate_sheet.csv
+  553  /Users/grahamjohnstone/opt/anaconda3/envs/dev/bin/python /Users/grahamjohnstone/Desktop/github_upload/Module_2_Challenge/loan_qualifier_app/Loan_Qualifier_Application/app.py
+  554  /Users/grahamjohnstone/opt/anaconda3/envs/dev/bin/python /Users/grahamjohnstone/Desktop/github_upload/Module_2_Challenge/loan_qualifier_app/Loan_Qualifier_Application/app.py
+  555  python app.py
+  556  python app.py
+  557  python app.py
+  558  python app.py
+  559  python app.py
+  560  python app.py
+  561   python app.py
+  562  conda activate dev
+  563  jupyter lab
+  564  conda deactivate
+  565  conda activate dev
+  566  jupyter lab
+  567  conda deactivate
+  568  ls
+  569  cd desktop
+  570  ls
+  571  cd ..
+  572  cd documents
+  573  ls
+  574  cd ..
+  575  cd desktop
+  576  cd github_upload
+  577  ls
+  578  cd module_2_challenge
+  579  ls
+  580  cd loan_qualifier_app
+  581  ls
+  582  git clone https://github.com/creamybokeh/Loan_Qualifier_Application.git
+  583  git status
+  584  ls
+  585  cd_loan_qualifier_application
+  586  cd loan_qualifier_application
+  587  git status
+  588  git status
+  589  git add readme.md
+  590  git status
+  591  git add README.md
+  592  git status
+  593  git add app.py
+  594  git add data/
+  595  git add qualifier/
+  596  git status
+  597  git commit -m "Initial commit."
+  598  git status
+  599  git push
+  600  ls
+  601  python app.py
+  602  python --version
+  603  activate conda dev
+  604  conda activate dev
+  605  python app.py
+  606  python app.py
+  607  conda activate dev
+  608  python
+  609  cd github_uploads
+  610  ls
+  611  cd desktop
+  612  ls
+  613  cd github_upload
+  614  ls
+  615  cd module_2_challenge
+  616  ls
+  617  cd loan_qualifier_app
+  618  ls
+  619  cd loan_qualifier_application
+  620  ls
+  621  git status
+  622  add git images/
+  623  git add images/
+  624  git status
+  625  git add readme.md
+  626  git status
+  627  git commit -m"Added content to the README file describing the program."
+  628  git status
+  629  git push
+  630  git add README.md
+  631  git status
+  632  git commit -m "Added to the README file with informatoin describing the program."
+  633  git commit
+  634  git status
+  635  git add README.md
+  636  git status
+  637  git status
+  638  git add README.md
+  639  git status
+  640  git commit -m "README file modified to include all relevant information about the program"
+  641  git status
+  642  git add app.py
+  643  git status
+  644  add qualifying_loan_list.csv
+  645  git add qualifying_loan_list.csv
+  646  git add qualifying_loans_list.csv
+  647  git status
+  648  git commit -m "Added a function that allows the user to save the list of files to CSV. Uploaded the "qualifiying_loans_list.csv" file.    \n\n"
+  649  git status
+  650  git push
