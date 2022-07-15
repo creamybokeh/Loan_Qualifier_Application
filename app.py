@@ -14,7 +14,7 @@ import csv
 from pathlib import Path
 
 from qualifier.utils.fileio import load_csv
-
+from qualifier.utils.fileio import save_csv
 from qualifier.utils.calculators import (
     calculate_monthly_debt_ratio,
     calculate_loan_to_value_ratio,
@@ -115,11 +115,9 @@ def save_qualifying_loans(qualifying_loans):
     csvpath = Path ("qualifying_loans_list.csv")
     print("Writing data to a CSV file...")
 
-    with open(csvpath, 'w', newline='') as csvfile:
-        csvwriter = csv.writer(csvfile, delimiter=",")
-        csvwriter.writerow(save_qualifying_loans)
-        csvwriter.writerow()
-        
+    return save_csv(csvpath)
+
+
 def run():
     """The main function for running the script."""
 
