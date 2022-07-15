@@ -1,6 +1,7 @@
-# Loan Qualifier Application
+# Loan Qualifier
 
-This is a command-line interface program written in Python. Its purpose is to help customers identify which bank loans they're accepted for by simply entering their financial information. The customer will input their credit score, monthly debt, monthly income, desired loan amount and their home value. The program aims to streamline the selection process and speed up banking operations.
+This program helps banks to automate the consumer loan acceptance process. The program will tell which bank loan products the customer is approved for based upon a number of criteria including credit score, debt, monthly income, desired loan amount and home value. The program aims to streamline the selection process and speed up banking operations.
+
 
 ---
 
@@ -12,37 +13,61 @@ The libraries Fire and Questionary were used and must be installed in order for 
 Fire allows the user to input data directly from the command prompt. 
 Questionary allows the user to input the data in a more user friendly "question and answer" format.
 
-This program will work on Windows, MacOS and Linux with Python 3.9 installed. The user must have have access to and be able to navigate a CLI to run the program.
+This program will work on Windows, MacOS and Linux with Python 3.9 installed. The user must have have access to and be able to navigate a CLI to run it.
 
 Documentation for the Fire library can be found [here.](https://github.com/google/python-fire)
 
-Documentation for the Questionary library can be found[here.](https://github.com/tmbo/questionary)
+Documentation for the Questionary library can be found[here.](https://questionary.readthedocs.io/en/stable/)
 
 ---
 
 ## Installation Guide
 
-Before running the application first install the following dependencies.
+Install the following dependencies before running the program.
 
-```python
-  pip install fire
-  pip install questionary
+To install the Fire and Questionary libraries type the following into your CLI:
+
+```
+python
+pip install fire
+pip install questionary
 ```
 
 ---
 
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+To run the program type **app.py**.
+
+```python
+    python app.py
+```
+Once you run the program you will be prompted to enter the following information:
+    
+• Enter a file path to a rate-sheet (.csv):
+• What's your credit score?
+• What's your current amount of monthly debt?
+• What's your total monthly income?
+• What's your desired loan amount?
+• What's your home value?
+
+![Loan Qualifier CLI](images/loan_qualifier_cli_1.png)
+
+The program will display the monthly debt to income ratio, the loan to value ratio and identify how many loans the customer will qualify for.
+
+It finishes by asking the user whether or not they wish to save their loans as a CSV files and if so, directs them to enter a path to save to.
 
 ---
 
 ## Contributors
 
-In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.
+Developed by:
+
+Graham Johnstone
+Email: johnstonegr@gmail.com
 
 ---
 
 ## License
+This code is published under the Creative Commons License, 2021.
 
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.
