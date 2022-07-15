@@ -53,9 +53,9 @@ Once you run the program you will be prompted to enter the following information
 
 ![Loan Qualifier CLI](images/loan_qualifier_cli_1.png)
 
-The program will display the monthly debt to income ratio, the loan to value ratio and identify how many loans the customer will qualify for.
+The output displays the monthly debt to income ratio, the loan to value ratio and identify how many loans the customer will qualify for.
 
-It finishes by asking the user whether or not they wish to save their loans as a CSV files and if so, directs them to enter a path to save to.
+The program completes by prompting the user to enter a filepath and name for the CSV save file and saves the data to a CSV.
 
 ---
 
